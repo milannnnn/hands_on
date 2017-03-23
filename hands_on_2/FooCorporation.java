@@ -10,16 +10,10 @@ public class FooCorporation {
 		John.hours = 38;
 		John.salary();
 		
-		Employee Annabel = new Employee();
-		Annabel.name = "Annabel";
-		Annabel.base_pay = 8.2;
-		Annabel.hours = 42;
+		Employee Annabel = new Employee("Annabel",8.2,42);
 		Annabel.salary();
 		
-		Employee Graham = new Employee();
-		Graham.name = "Graham";
-		Graham.base_pay = 10.5;
-		Graham.hours = 41;
+		Employee Graham = new Employee("Graham",10.5,41);
 		Graham.salary();
 				
 		Manager Bill = new Manager();
@@ -29,11 +23,7 @@ public class FooCorporation {
 		Bill.office = "A332";
 		Bill.salary();
 		
-		Manager Gregory = new Manager();
-		Gregory.name = "Gregory";
-		Gregory.base_pay = 18.2;
-		Gregory.hours = 40;
-		Gregory.office = "A415";
+		Manager Gregory = new Manager("Gregory",18.2,40,"A415");
 		Gregory.salary();
 		
 	}

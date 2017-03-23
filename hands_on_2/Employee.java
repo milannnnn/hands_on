@@ -9,4 +9,12 @@ public class Employee {
 	public void salary(){
 		System.out.println(name + "'s salary for this month is " + base_pay*hours + "$!");
 	}
+	
+	public Employee(){}
+	
+	public Employee(String nm, double bp, int h){
+		name = nm;
+		base_pay = bp;
+		hours = h;
+	}
 }

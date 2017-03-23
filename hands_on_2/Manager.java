@@ -9,4 +9,10 @@ public class Manager extends Employee {
 						   " from " + office + ") is " + base_pay*hours + "$!");
 	}
 
+	public Manager(){}
+	
+	public Manager(String nm, double bp, int h, String off){
+		super(nm,bp,h); // Refers the Constructor from the Extended Class (Employee)!!!
+		office = off;
+	}
 }
