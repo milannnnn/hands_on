@@ -11,7 +11,7 @@ public class Manager extends Employee {
 		}
 		else{
 			System.out.println("This manager ("+name+" from "+office_name
-					            +") is a freaking hobo!!!");
+					            +") is a freaking hobo!!!"); 
 		}
 	}
 	
