@@ -27,6 +27,8 @@ public class FooCorporation {
 			managers.get(i).hasOffice();
 		}
 		
+		employees.remove(2);
+		System.out.println(employees.get(2).name); // Margaret instead of Graham
 	}
 
 }

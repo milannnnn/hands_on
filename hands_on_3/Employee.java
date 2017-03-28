@@ -16,7 +16,7 @@ public class Employee {
 		System.out.printf("%s's salary for this month is %.2f $!\n", name, tot_salary);
 		}
 		else{
-			System.out.println("ERROR -> " + name + " -> Indian Detected!!!");
+			System.out.println("MIN WAGE ERROR (Indian Detected) -> " + name + "!!!");
 		}
 	}
 	
