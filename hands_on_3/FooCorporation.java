@@ -16,6 +16,7 @@ public class FooCorporation {
 		// for (int i=0;i<employees.size();i++){
 		// 	employees.get(i).salary();
 		// }
+		
 		for(Employee emp : employees){
 			emp.salary();
 		}
@@ -25,15 +26,16 @@ public class FooCorporation {
 		managers.add(new Manager("Bill",15,49,'A',"A332"));
 		managers.add(new Manager("Gregory",16.5,47,'B',"A415"));
 		
-		/*String[] manNames = {"Bill", "Gregory"};
+		/*
+		String[] manNames = {"Bill", "Gregory"};
 		char[] 	 manLevel = {'A', 'B'};
 		double[] manPay = {15.0, 16.5};
 		int[] 	 manHours = {49, 47};
 		String[] manOfficeNumber = {"A332", "A415"};
-		
 		for(int i=0; i<manNames.length; i++){
 			managers.add(new Manager(manNames[i], manPay[i], manHours[i],manLevel[i], manOfficeNumber[i]));
-		}*/
+		}
+		*/
 		
 		for(Manager man : managers){
 			man.salary();
