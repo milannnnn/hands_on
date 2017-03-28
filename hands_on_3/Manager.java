@@ -19,6 +19,6 @@ public class Manager extends Employee {
 	
 	public Manager(String nm, double bp, int h, char pro, String off){
 		super(nm,bp,h,pro); // Refers the Constructor from the Extended Class (Employee)!!!
-		office_name = off;
+		this.office_name = off;
 	}
 }

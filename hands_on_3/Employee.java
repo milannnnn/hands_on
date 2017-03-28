@@ -32,9 +32,9 @@ public class Employee {
 	public Employee(){}
 	
 	public Employee(String nm, double bp, int h, char p){
-		name = nm;
-		base_pay = bp;
-		hours = h;
-		pro_lvl = p;
+		this.name = nm;
+		this.base_pay = bp;
+		this.hours = h;
+		this.pro_lvl = p;
 	}
 }
