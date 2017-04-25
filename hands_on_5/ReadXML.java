@@ -24,6 +24,8 @@ public class ReadXML {
 			doc.getDocumentElement().normalize();
 			
 			NodeList subList1 = doc.getElementsByTagName("cim:Substation");
+//			Element subList1_0 = doc.getElementById("_ID_SUBSTATION1");
+//			NodeList subList1 = (NodeList)subList1_0;
 			NodeList subList2 = doc.getElementsByTagName("cim:VoltageLevel");
 			NodeList subList3 = doc.getElementsByTagName("cim:SynchronousMachine");
 			// … read other required CIM objects
@@ -59,9 +61,9 @@ public class ReadXML {
 		Element element = (Element)node;
 		String name = element.getElementsByTagName("cim:IdentifiedObject.name").item(0).getTextContent();
 		String id   = element.getAttribute("rdf:ID");
+		//if(id == ""){System.out.println("PUSKA");}
 		//System.out.println("Name: " +name + "\t ID: " + id);
 		System.out.println(name + " (" + id + ")");
-		
 		
 	}
 
